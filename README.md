@@ -51,7 +51,7 @@ var Service=require('node-zookeeper-dubbo');
 
 var opt={
   env:'test', // dubbo service version
-  gruop:'dubbo', // dubbo group default by 'dubbo',optional
+  gruop:'dubbo', // dubbo group default by '',optional
   conn:'127.0.0.1:2180', // zookeeper url
   path:'com.customer.Service', // service url
   version:'2.3.4.5' // dubbo version
